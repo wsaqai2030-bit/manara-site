@@ -75,7 +75,7 @@ try{
       var f=document.querySelector('form');if(!f||document.getElementById('am-form-fail'))return;
       var d=document.createElement('div');d.id='am-form-fail';d.setAttribute('role','alert');
       d.style.cssText='margin-top:12px;padding:12px 14px;border:1px solid #F2862E;border-radius:8px;background:#FFF6EE;color:#0F2B4F;font-size:14px;line-height:1.5';
-      d.innerHTML='Não conseguimos enviar sua mensagem. Escreva para nós por <a href="https://wa.me/201146006496" target="_blank" rel="noopener" style="color:#0F2B4F;font-weight:600;text-decoration:underline">WhatsApp +20 11 4600 6496</a> ou a <a href="mailto:info@manaragrp.com" style="color:#0F2B4F;font-weight:600;text-decoration:underline">info@manaragrp.com</a>.';
+      d.innerHTML='Não conseguimos enviar sua mensagem. Escreva para nós por <a href="https://wa.me/201146006496" target="_blank" rel="noopener" style="color:#0F2B4F;font-weight:600;text-decoration:underline">WhatsApp +20 11 4600 6496</a> ou a <a href="mailto:waleed@manaragrp.com" style="color:#0F2B4F;font-weight:600;text-decoration:underline">waleed@manaragrp.com</a>.';
       f.appendChild(d);
     }
     window.fetch=function(u,o){
@@ -678,7 +678,7 @@ try{
  function main(){
   return '<section class="ct-main"><div class="ct-w"><div class="ct-g"><div class="ct-col ct-r">'+
   '<a class="ct-cd ct-wa" href="'+WA+'" target="_blank" rel="noopener"><div class="ct-ic">'+ic(I.wa,28)+'</div><div><h3>A FORMA MAIS RÁPIDA DE FALAR CONOSCO</h3><b>WhatsApp +20 11 4600 6496</b><small>Equipe de suporte técnico</small><span class="go">Iniciar chat '+ic(I.arw,16)+'</span></div></a>'+
-  '<div class="ct-cd"><div class="ct-ic">'+ic(I.mail,24)+'</div><div><h3>CORREO ELECTRÓNICO</h3><a href="mailto:info@manaragrp.com">info@manaragrp.com</a><a href="mailto:waleed@manaragrp.com">waleed@manaragrp.com</a></div></div>'+
+  '<div class="ct-cd"><div class="ct-ic">'+ic(I.mail,24)+'</div><div><h3>CORREO ELECTRÓNICO</h3><a href="mailto:waleed@manaragrp.com">waleed@manaragrp.com</a><a href="mailto:waleed@manaragrp.com">waleed@manaragrp.com</a></div></div>'+
   '<div class="ct-cd"><div class="ct-ic">'+ic(I.pin,24)+'</div><div><h3>ESCRITÓRIO CENTRAL</h3><b style="font-size:16.5px">E9 Sky Degla1, Cidade de 10 de Ramadã, Egito</b><small>Sede legal: 47 Neighborhood 41, Cidade de 10 de Ramadã</small></div></div></div>'+
   '<div class="ct-fm ct-r"><h2>Envie-nos sua necessidade</h2><p>Preencha o formulário e responderemos por e-mail ou WhatsApp.</p><div id="ct-slot"></div><div class="ct-nt">Usamos seus dados somente para responder à sua consulta.</div></div></div></div></section>';
  }
@@ -1026,7 +1026,7 @@ body[data-amu="ca"] [data-amp="tl"],body[data-amu="tl"] [data-amp="ca"]{display:
   function set(c,l,h){if(!c)return;var a=c.querySelector('h4'),b=c.querySelector('p');if(a)a.textContent=l;if(b)b.innerHTML=h;}
   set(it.m,'Endereço','Escritório central: E9 Sky Degla1, Cidade de 10 de Ramadã<br>Bairro 41, Edifício 47, Cidade de 10 de Ramadã, Egito 44629');
   set(it.p,'Teléfono','+2 011 46 00 64 96 (suporte técnico, WhatsApp)');
-  set(it.e,'E-mail','info@manaragrp.com<br>waleed@manaragrp.com');
+  set(it.e,'E-mail','waleed@manaragrp.com<br>waleed@manaragrp.com');
   [it.m,it.p,it.e].forEach(function(c){if(c)box.appendChild(c);});
   var de=form.querySelector('[class*="_sectionDescription_"]');if(de)de.style.display='none';
   var so=document.createElement('div');so.className='am-fs';so.innerHTML='<a href="https://www.linkedin.com/company/al-manara-for-investment-and-commercial-agencies/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg></a><a href="https://www.youtube.com/channel/UChGF80Wkrd_r7bQpRg-ntqQ" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6z"/></svg></a>';box.appendChild(so);
